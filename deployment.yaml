@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: java-k8s
-        image: benisrael/java-k8s:replaceImageTag
+        image: benisrael/java-k8s:10
         ports:
         - containerPort: 8080
